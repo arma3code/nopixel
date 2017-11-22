@@ -1,0 +1,60 @@
+extDB2: Version: 71
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 8 Cores, Setting up 6 Worker Threads
+
+
+[20:37:44:582000 +00:-1] [Thread 2608] extDB2: Database Type: MySQL
+[20:37:44:595032 +00:-1] [Thread 2608] extDB2: Database Session Pool Started
+[20:37:44:595989 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Users\root\Desktop\APNopixel\@extDB2\extDB\sql_custom_v2\rpframework.ini
+[20:37:44:596115 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Version 10 Detected, Latest Version 12 Available
+[20:37:44:597687 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[20:37:44:597716 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[20:37:44:597810 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[20:37:44:597835 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[20:39:22:737394 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:39:22:737537 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:39:22:737573 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Phantom:Silver Lake Government:76561198182692634
+[20:39:22:909739 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.messages' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:39:22:909814 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:39:22:909843 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Phantom:Verizon:76561198182692634
+[20:39:23:940628 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.messages' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: SELECT message, title, sender FROM messages WHERE receiver=?
+[20:39:23:940695 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:39:23:950675 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 102 Input String: getMessages:76561198182692634
+[20:39:23:951282 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.garage' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: SELECT CASE WHEN EXISTS(SELECT * FROM garage WHERE license = ?) THEN 'true' ELSE 'false' END
+[20:39:23:951338 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:39:23:951364 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: existLicense:yfdx461
+[20:39:23:961355 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.garage' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: INSERT INTO garage (license, class, color, finish, rims, windows, lights, owner,statuses) VALUE (?,?,?,?,?,?,?,?,?)
+[20:39:23:961489 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:39:23:961523 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertGarage:yfdx461:Jonzie_Ceed:venetianred:Matte:black:1:1:76561198182692634:1
+[20:39:24:026335 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.garage' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: SELECT license, class, color, finish, rims, windows, lights,statuses, owner FROM garage WHERE owner=?;
+[20:39:24:026405 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:39:24:026433 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 104 Input String: getGarage:76561198182692634
+[20:42:20:008927 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.messages' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: SELECT message, title, sender FROM messages WHERE receiver=?
+[20:42:20:009005 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:42:20:009043 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 106 Input String: getMessages:76561198182692634
+[20:42:20:051799 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.garage' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: SELECT license, class, color, finish, rims, windows, lights,statuses, owner FROM garage WHERE owner=?;
+[20:42:20:051864 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:42:20:051892 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 108 Input String: getGarage:76561198182692634
+[20:45:05:934216 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.messages' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: SELECT message, title, sender FROM messages WHERE receiver=?
+[20:45:05:934292 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:45:05:934320 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 110 Input String: getMessages:76561198182692634
+[20:45:05:996435 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.garage' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: SELECT license, class, color, finish, rims, windows, lights,statuses, owner FROM garage WHERE owner=?;
+[20:45:05:996503 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:45:05:996532 +00:-1] [Thread 3836] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 112 Input String: getGarage:76561198182692634
+[20:45:44:220674 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.garage' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: SELECT CASE WHEN EXISTS(SELECT * FROM garage WHERE license = ?) THEN 'true' ELSE 'false' END
+[20:45:44:220753 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:45:44:220782 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: existLicense:amam420
+[20:45:44:222046 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Table 'nopixel.garage' doesn't exist	[mysql_stmt_errno]: 1146	[mysql_stmt_sqlstate]: 42S02	[statemnt]: INSERT INTO garage (license, class, color, finish, rims, windows, lights, owner,statuses) VALUE (?,?,?,?,?,?,?,?,?)
+[20:45:44:222190 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:45:44:222236 +00:-1] [Thread 2608] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertGarage:amam420:Jonzie_XB:aliceblue:Matte:antiquewhite:0:0:76561198182692634:1
+[20:47:00:959765 +00:-1] [Thread 2608] extDB2: Stopping ...

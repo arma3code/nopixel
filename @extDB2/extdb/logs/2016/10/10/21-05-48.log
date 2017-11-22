@@ -1,0 +1,24 @@
+extDB2: Version: 71
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 4 Cores, Setting up 4 Worker Threads
+
+
+[23:05:48:283600 +02:00] [Thread 4044] extDB2: Database Type: MySQL
+[23:05:48:284600 +02:00] [Thread 4044] extDB2: Database Session Pool Started
+[23:05:48:285600 +02:00] [Thread 4044] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Users\root.ZELON-34572\Desktop\A3 NoPixel Server\@extDB2\extDB\sql_custom_v2\rpframework.ini
+[23:05:48:285600 +02:00] [Thread 4044] extDB2: SQL_CUSTOM_V2: Version 10 Detected, Latest Version 12 Available
+[23:05:48:336600 +02:00] [Thread 3632] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[23:05:48:336600 +02:00] [Thread 3632] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[23:05:48:336600 +02:00] [Thread 3632] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[23:05:48:336600 +02:00] [Thread 3632] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[23:11:07:096600 +02:00] [Thread 4044] extDB2: Stopping ...

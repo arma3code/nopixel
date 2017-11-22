@@ -1,0 +1,317 @@
+extDB2: Version: 71
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 4 Cores, Setting up 4 Worker Threads
+
+
+[16:55:30:643400 +02:00] [Thread 2316] extDB2: Database Type: MySQL
+[16:55:30:714400 +02:00] [Thread 2316] extDB2: Database Session Pool Started
+[16:55:30:715400 +02:00] [Thread 2316] extDB2: Error Unknown Protocol: any  Input String: 2:any:getMayor:1
+[16:55:30:731400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Users\root.ZELON-34572\Desktop\A3 NoPixel Server\@extDB2\extDB\sql_custom_v2\rpframework.ini
+[16:55:30:731400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Version 10 Detected, Latest Version 12 Available
+[16:55:30:737400 +02:00] [Thread 2316] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[16:55:30:737400 +02:00] [Thread 2316] extDB2: Error: Input String 4:Error Unknown Protocol
+[16:55:30:740400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[16:55:30:740400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[17:17:02:806400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[17:17:02:806400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[17:17:02:806400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Jarvis Narco:Silver Lake Government:76561198233097276
+[17:17:02:966400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[17:17:02:966400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[17:17:02:966400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Jarvis Narco:Verizon:76561198233097276
+[17:20:37:777400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[17:20:37:777400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[17:20:37:777400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Jake Woods:Silver Lake Government:76561198091968804
+[17:20:37:937400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[17:20:37:937400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[17:20:37:937400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Jake Woods:Verizon:76561198091968804
+[17:26:43:653400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[17:26:43:653400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[17:26:43:653400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[17:26:43:653400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[17:55:42:474400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[17:55:42:474400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[17:55:42:474400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[17:55:42:474400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[18:18:34:726400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[18:18:34:726400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[18:18:34:726400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Chris Mcclit:Silver Lake Government:76561198104496719
+[18:18:34:886400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[18:18:34:886400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[18:18:34:886400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Chris Mcclit:Verizon:76561198104496719
+[18:25:54:072400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[18:25:54:072400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[18:25:54:072400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Jack White:Silver Lake Government:76561198123578559
+[18:25:54:232400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[18:25:54:232400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[18:25:54:232400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Jack White:Verizon:76561198123578559
+[18:44:20:032400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[18:44:20:032400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[18:44:20:032400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Maj. C. Smith [109]:Silver Lake Government:76561198114710888
+[18:44:20:192400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[18:44:20:192400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[18:44:20:192400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Maj. C. Smith [109]:Verizon:76561198114710888
+[18:51:19:498400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[18:51:19:498400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[18:51:19:498400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Sgt. Cyclone:Silver Lake Government:76561198332756260
+[18:51:19:658400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[18:51:19:658400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[18:51:19:658400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Sgt. Cyclone:Verizon:76561198332756260
+[18:51:59:802400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:1:76561198091968804
+[18:51:59:802400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:01:59:673400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:01:59:673400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:01:59:673400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Maj. C. Smith [109]:Silver Lake Government:76561198114710888
+[19:01:59:832400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:01:59:832400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:01:59:832400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Maj. C. Smith [109]:Verizon:76561198114710888
+[19:16:43:719400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:16:43:719400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:16:43:719400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear TheInsaneAsian:Silver Lake Government:76561198081200466
+[19:16:43:878400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:16:43:879400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:16:43:879400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear TheInsaneAsian:Verizon:76561198081200466
+[19:20:08:323400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:20:08:323400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:20:08:323400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Smiley Queens:Silver Lake Government:76561198232478276
+[19:20:08:484400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:20:08:484400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:20:08:484400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Smiley Queens:Verizon:76561198232478276
+[19:25:35:824400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:25:35:824400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:25:35:824400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear DAB CHAPO:Silver Lake Government:76561198274046265
+[19:25:35:984400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:25:35:984400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:25:35:984400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear DAB CHAPO:Verizon:76561198274046265
+[19:30:25:204400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[19:30:25:204400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:30:25:205400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 273 Input String: getCrimeType:1
+[19:30:41:923400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[19:30:41:923400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:30:41:923400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 274 Input String: getCrimeType:1
+[19:32:41:878400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:0:76561198091968804
+[19:32:41:878400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:32:43:478400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:0:76561198091968804
+[19:32:43:478400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:32:43:757400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:0:76561198091968804
+[19:32:43:757400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:32:43:918400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:0:76561198091968804
+[19:32:43:918400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:32:44:079400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:0:76561198091968804
+[19:32:44:079400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:35:00:555400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:35:00:556400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:35:00:556400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Kevin Sharp:Silver Lake Government:76561198221072404
+[19:35:00:744400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:35:00:744400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:35:00:744400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Kevin Sharp:Verizon:76561198221072404
+[19:35:45:183400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:1:76561198091968804
+[19:35:45:183400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:35:46:744400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:1:76561198091968804
+[19:35:46:744400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:35:46:983400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:1:76561198091968804
+[19:35:46:983400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:35:47:104400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:1:76561198091968804
+[19:35:47:104400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:35:47:323400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:1:76561198091968804
+[19:35:47:323400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[19:38:06:640400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:38:06:640400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:38:06:640400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Alex McClit:Silver Lake Government:76561198148931796
+[19:38:06:800400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:38:06:800400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:38:06:800400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Alex McClit:Verizon:76561198148931796
+[19:40:13:821400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:40:13:821400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:40:13:821400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Jon VanderZee:Silver Lake Government:76561198198862475
+[19:40:14:002400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:40:14:002400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:40:14:002400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Jon VanderZee:Verizon:76561198198862475
+[19:44:02:773400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[19:44:02:773400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:44:02:773400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 295 Input String: getCrimeType:1
+[19:44:09:912400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[19:44:09:912400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:44:09:912400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 296 Input String: getCrimeType:1
+[19:44:46:655400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:44:46:655400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:44:46:655400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Liam VanderZee:Silver Lake Government:76561198075985664
+[19:44:46:815400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:44:46:815400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:44:46:815400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Liam VanderZee:Verizon:76561198075985664
+[19:46:27:952400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:46:27:952400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:46:27:952400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear LUCKYBEAST:Silver Lake Government:76561197991830189
+[19:46:28:112400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:46:28:112400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:46:28:112400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear LUCKYBEAST:Verizon:76561197991830189
+[19:57:52:712400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:57:52:712400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:57:52:712400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Rahm McClit:Silver Lake Government:76561198272665059
+[19:57:52:872400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[19:57:52:872400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:57:52:872400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Rahm McClit:Verizon:76561198272665059
+[19:58:54:506400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[19:58:54:506400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[19:58:54:506400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 309 Input String: getCrimeType:1
+[20:03:38:126400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[20:03:38:126400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:03:38:126400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 310 Input String: getCrimeType:1
+[20:04:06:249400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[20:04:06:249400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:04:06:249400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 311 Input String: getCrimeType:1
+[20:04:15:830400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[20:04:15:830400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:04:15:830400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 312 Input String: getCrimeType:1
+[20:11:19:601400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:11:19:601400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:11:19:601400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Maximilian:Silver Lake Government:76561198157296005
+[20:11:19:761400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:11:19:761400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:11:19:761400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Maximilian:Verizon:76561198157296005
+[20:12:38:863400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[20:12:38:863400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:12:38:863400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 326 Input String: getCrimeType:1
+[20:12:40:562400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[20:12:40:562400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:12:40:562400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 327 Input String: getCrimeType:1
+[20:34:06:655400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198272665059
+[20:34:06:655400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:34:08:135400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198272665059
+[20:34:08:135400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:34:08:275400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198272665059
+[20:34:08:276400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:34:10:045400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:34:10:045400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:34:10:045400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Daniel Ace:Silver Lake Government:76561198084460526
+[20:34:10:205400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:34:10:205400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:34:10:205400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Daniel Ace:Verizon:76561198084460526
+[20:37:43:125400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:37:43:125400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:37:43:125400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear M.Cooper:Silver Lake Government:76561198023069996
+[20:37:43:285400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:37:43:285400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:37:43:285400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear M.Cooper:Verizon:76561198023069996
+[20:37:49:091400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:1:76561198099200326
+[20:37:49:091400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:53:167400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:53:167400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:53:667400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:53:667400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:53:847400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:53:847400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:53:987400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:53:987400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:54:166400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:54:167400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:54:355400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:54:356400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:54:495400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:54:495400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:54:654400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:54:654400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:54:816400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:54:816400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:54:975400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:54:975400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:55:175400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:55:175400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:55:374400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:55:374400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:55:515400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:55:515400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:55:695400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:55:695400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:37:55:875400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198099200326
+[20:37:55:875400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:12:055400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:4:76561198272665059
+[20:38:12:055400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:12:656400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:4:76561198272665059
+[20:38:12:656400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:12:816400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:4:76561198272665059
+[20:38:12:816400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:12:977400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:4:76561198272665059
+[20:38:12:977400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:18:059400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198099200326
+[20:38:18:059400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:18:498400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198099200326
+[20:38:18:498400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:18:678400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198099200326
+[20:38:18:678400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:18:819400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198099200326
+[20:38:18:819400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:18:998400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198099200326
+[20:38:18:998400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:19:158400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198099200326
+[20:38:19:158400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:19:338400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198099200326
+[20:38:19:338400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:20:919400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:4:76561198099200326
+[20:38:20:919400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:21:098400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:4:76561198099200326
+[20:38:21:098400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:21:258400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:4:76561198099200326
+[20:38:21:258400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:21:438400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:4:76561198099200326
+[20:38:21:438400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:21:646400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:4:76561198099200326
+[20:38:21:646400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:38:21:825400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:4:76561198099200326
+[20:38:21:825400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:47:16:177400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:47:16:177400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:47:16:177400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear rick:Silver Lake Government:76561198012542044
+[20:47:16:337400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:47:16:337400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:47:16:337400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear rick:Verizon:76561198012542044
+[20:47:17:357400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Incorrect Number of Inputs: Input String existPlayerInfo:
+[20:47:17:357400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Incorrect Number of Inputs: Expected: 1 Got: 0
+[20:48:28:460400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:48:28:460400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:48:28:460400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear [UCA] Kieran:Silver Lake Government:76561198079726016
+[20:48:28:619400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[20:48:28:619400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:48:28:619400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear [UCA] Kieran:Verizon:76561198079726016
+[20:52:59:504400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[20:52:59:504400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[20:52:59:504400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 380 Input String: getCrimeType:1
+[20:53:22:046400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198272665059
+[20:53:22:046400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:53:22:845400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198272665059
+[20:53:22:845400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:53:23:046400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198272665059
+[20:53:23:046400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:53:23:205400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198272665059
+[20:53:23:205400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:53:23:365400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198272665059
+[20:53:23:365400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:53:23:546400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:3:76561198272665059
+[20:53:23:546400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[20:57:47:998400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:2:76561198148931796
+[20:57:47:999400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[21:10:41:411400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[21:10:41:411400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:10:41:411400 +02:00] [Thread 1868] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 381 Input String: getCrimeType:1
+[21:14:29:647400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[21:14:29:647400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:14:29:647400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Fenton:Silver Lake Government:76561198108051839
+[21:14:29:807400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[21:14:29:807400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:14:29:807400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Fenton:Verizon:76561198108051839
+[21:15:26:605400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[21:15:26:605400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:15:26:605400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Devin Johnson:Silver Lake Government:76561198098586688
+[21:15:26:766400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[21:15:26:766400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:15:26:766400 +02:00] [Thread 2316] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Devin Johnson:Verizon:76561198098586688
+[21:23:32:911400 +02:00] [Thread 2316] extDB2: Stopping ...

@@ -1,0 +1,48 @@
+extDB2: Version: 71
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 4 Cores, Setting up 4 Worker Threads
+
+
+[16:44:43:243600 +02:00] [Thread 2124] extDB2: Error Unknown Protocol: any  Input String: 2:any:getMayor:1
+[16:44:43:247600 +02:00] [Thread 2124] extDB2: Database Type: MySQL
+[16:44:44:250600 +02:00] [Thread 2124] extDB2: Database Exception Error: Connection attempt failed: Can't connect to MySQL server on '127.0.0.1' (10061)
+[16:44:44:255600 +02:00] [Thread 2124] extDB2: Error Unknown Protocol: any  Input String: 2:any:rallyracetimes
+[16:44:44:256600 +02:00] [Thread 2124] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[16:44:44:256600 +02:00] [Thread 2124] extDB2: Error: Input String 4:Error Unknown Protocol
+[16:44:54:071600 +02:00] [Thread 2124] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[16:44:54:071600 +02:00] [Thread 2124] extDB2: Error: Input String 4:Error Unknown Protocol
+[16:45:26:014600 +02:00] [Thread 2124] extDB2: Database Type: MySQL
+[16:45:27:014600 +02:00] [Thread 2124] extDB2: Database Exception Error: Connection attempt failed: Can't connect to MySQL server on '127.0.0.1' (10061)
+[16:45:27:021600 +02:00] [Thread 2124] extDB2: Error Unknown Protocol: any  Input String: 2:any:getMayor:1
+[16:45:27:022600 +02:00] [Thread 2124] extDB2: Error Unknown Protocol: any  Input String: 2:any:rallyracetimes
+[16:45:27:098600 +02:00] [Thread 2124] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[16:45:27:098600 +02:00] [Thread 2124] extDB2: Error: Input String 4:Error Unknown Protocol
+[16:45:27:098600 +02:00] [Thread 2124] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[16:45:27:098600 +02:00] [Thread 2124] extDB2: Error: Input String 4:Error Unknown Protocol
+[16:47:08:024600 +02:00] [Thread 2124] extDB2: Database Type: MySQL
+[16:47:09:024600 +02:00] [Thread 2124] extDB2: Database Exception Error: Connection attempt failed: Can't connect to MySQL server on '127.0.0.1' (10061)
+[16:47:09:056600 +02:00] [Thread 2124] extDB2: Error Unknown Protocol: any  Input String: 2:any:getMayor:1
+[16:47:09:056600 +02:00] [Thread 2124] extDB2: Error Unknown Protocol: any  Input String: 2:any:rallyracetimes
+[16:47:09:075600 +02:00] [Thread 2124] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[16:47:09:075600 +02:00] [Thread 2124] extDB2: Error: Input String 4:Error Unknown Protocol
+[16:47:09:075600 +02:00] [Thread 2124] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[16:47:09:075600 +02:00] [Thread 2124] extDB2: Error: Input String 4:Error Unknown Protocol
+[16:48:54:725600 +02:00] [Thread 2124] extDB2: Database Type: MySQL
+[16:48:55:725600 +02:00] [Thread 2124] extDB2: Database Exception Error: Connection attempt failed: Can't connect to MySQL server on '127.0.0.1' (10061)
+[16:48:55:757600 +02:00] [Thread 2124] extDB2: Error Unknown Protocol: any  Input String: 2:any:getMayor:1
+[16:48:55:757600 +02:00] [Thread 2124] extDB2: Error Unknown Protocol: any  Input String: 2:any:rallyracetimes
+[16:48:55:765600 +02:00] [Thread 2124] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[16:48:55:765600 +02:00] [Thread 2124] extDB2: Error: Input String 4:Error Unknown Protocol
+[16:48:55:765600 +02:00] [Thread 2124] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[16:48:55:765600 +02:00] [Thread 2124] extDB2: Error: Input String 4:Error Unknown Protocol
+[16:53:16:092600 +02:00] [Thread 2124] extDB2: Stopping ...

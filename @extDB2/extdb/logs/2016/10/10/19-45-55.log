@@ -1,0 +1,36 @@
+extDB2: Version: 71
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 4 Cores, Setting up 4 Worker Threads
+
+
+[21:45:55:804800 +02:00] [Thread 3404] extDB2: Database Type: MySQL
+[21:45:55:805800 +02:00] [Thread 3404] extDB2: Database Session Pool Started
+[21:45:55:806800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Users\root.ZELON-34572\Desktop\A3 NoPixel Server\@extDB2\extDB\sql_custom_v2\rpframework.ini
+[21:45:55:806800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Version 10 Detected, Latest Version 12 Available
+[21:45:55:807800 +02:00] [Thread 3728] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[21:45:55:807800 +02:00] [Thread 3728] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[21:45:55:807800 +02:00] [Thread 3728] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[21:45:55:807800 +02:00] [Thread 3728] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[22:15:45:683800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[22:15:45:683800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[22:15:45:683800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Max King:Silver Lake Government:76561198103005049
+[22:15:45:844800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[22:15:45:844800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[22:15:45:844800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Max King:Verizon:76561198103005049
+[22:27:22:209800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[22:27:22:209800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[22:27:22:209800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear George Safflye:Silver Lake Government:76561198152835030
+[22:27:22:369800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[22:27:22:369800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[22:27:22:369800 +02:00] [Thread 3404] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear George Safflye:Verizon:76561198152835030
+[22:50:06:187800 +02:00] [Thread 3404] extDB2: Stopping ...

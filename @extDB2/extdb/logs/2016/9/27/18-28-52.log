@@ -1,0 +1,30 @@
+extDB2: Version: 71
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 8 Cores, Setting up 6 Worker Threads
+
+
+[21:28:52:400405 +00:-1] [Thread 4448] extDB2: Error Unknown Protocol: any  Input String: 2:any:getMayor:1
+[21:28:52:409955 +00:-1] [Thread 4448] extDB2: Database Type: MySQL
+[21:28:52:424220 +00:-1] [Thread 4448] extDB2: Database Session Pool Started
+[21:28:52:425692 +00:-1] [Thread 4448] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Users\root\Desktop\APNopixel\@extDB2\extDB\sql_custom_v2\rpframework.ini
+[21:28:52:425848 +00:-1] [Thread 4448] extDB2: SQL_CUSTOM_V2: Version 10 Detected, Latest Version 12 Available
+[21:28:52:429037 +00:-1] [Thread 3212] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[21:28:52:429086 +00:-1] [Thread 3212] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[21:28:52:455450 +00:-1] [Thread 4448] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[21:28:52:455505 +00:-1] [Thread 4448] extDB2: Error: Input String 4:Error Unknown Protocol
+[21:30:22:423444 +00:-1] [Thread 4448] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[21:30:22:423602 +00:-1] [Thread 4448] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:30:22:423655 +00:-1] [Thread 4448] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear E.Marco Escobar:Silver Lake Government:76561198308198312
+[21:30:22:577089 +00:-1] [Thread 4448] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[21:30:22:577224 +00:-1] [Thread 4448] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[21:30:22:577258 +00:-1] [Thread 4448] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear E.Marco Escobar:Verizon:76561198308198312

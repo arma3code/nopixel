@@ -1,0 +1,182 @@
+extDB2: Version: 71
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 8 Cores, Setting up 6 Worker Threads
+
+
+[14:06:45:222991 +00:-1] [Thread 1720] extDB2: Error Unknown Protocol: any  Input String: 2:any:getMayor:1
+[14:06:45:230327 +00:-1] [Thread 1720] extDB2: Database Type: MySQL
+[14:06:45:232008 +00:-1] [Thread 1720] extDB2: Database Session Pool Started
+[14:06:45:232979 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\steamcmd\steamapps\common\Arma 3 Server\@extDB2\extDB\sql_custom_v2\rpframework.ini
+[14:06:45:233070 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Version 10 Detected, Latest Version 12 Available
+[14:06:45:235158 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[14:06:45:235196 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[14:06:45:552721 +00:-1] [Thread 1720] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[14:06:45:552785 +00:-1] [Thread 1720] extDB2: Error: Input String 4:Error Unknown Protocol
+[14:58:20:197378 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[14:58:20:197482 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[14:58:20:197518 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 153 Input String: getCrimeType:1
+[14:59:34:627077 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[14:59:34:627171 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[14:59:34:627206 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 154 Input String: getCrimeType:1
+[15:00:21:720524 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:00:21:720621 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:00:21:720658 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 155 Input String: getCrimeType:1
+[15:01:05:729422 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateCop:2:76561198137755327
+[15:01:05:729486 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateCop
+[15:02:01:343677 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:02:01:343779 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:02:01:343814 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 156 Input String: getCrimeType:1
+[15:07:49:115416 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:07:49:115602 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:07:49:115653 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 169 Input String: getCrimeType:1
+[15:07:49:711949 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[["taser","RH_uspm"],[1,1],[0,0]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[9,6],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:07:49:712000 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:08:04:091082 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShopName:Costello General Goods:76561198051941113
+[15:08:04:091144 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShopName
+[15:08:05:109845 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShopName:Costello General Goods:76561198051941113
+[15:08:05:109897 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShopName
+[15:08:18:028941 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShopName:Costello General Goods:76561198051941113
+[15:08:18:029003 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShopName
+[15:08:19:321107 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[["taser","RH_uspm"],[1,1],[0,0]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[9,6],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:08:19:321179 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:08:22:493883 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateCop:5:76561198084610813
+[15:08:22:493934 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateCop
+[15:08:37:783284 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShopName::76561198051941113
+[15:08:37:783347 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShopName
+[15:08:38:401637 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[["taser","RH_uspm"],[1,1],[0,0]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[9,6],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:08:38:401693 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:08:57:192939 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShopName::76561198051941113
+[15:08:57:193005 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShopName
+[15:08:57:498635 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShopName::76561198051941113
+[15:08:57:498684 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShopName
+[15:08:58:668521 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[["taser","RH_uspm"],[1,1],[0,0]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[9,6],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:08:58:668573 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:09:09:293035 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateCop:2:76561198137755327
+[15:09:09:293100 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateCop
+[15:09:12:252911 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[["taser","RH_uspm"],[1,1],[0,0]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[9,6],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:09:12:252969 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:09:13:617729 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[["taser","RH_uspm"],[1,1],[0,0]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[9,6],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:09:13:617779 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:09:35:078649 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[["taser","RH_uspm"],[1,1],[0,0]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[9,6],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:09:35:078713 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:09:36:181353 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[["taser","RH_uspm"],[1,1],[0,0]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[9,6],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:09:36:181402 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:09:45:486468 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[6,4],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:09:45:486540 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:09:46:424683 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[6,4],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:09:46:424734 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:09:56:871713 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[4,3],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:09:56:871776 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:09:57:932856 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[4,3],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:09:57:932904 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:10:17:682499 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[6,4],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:10:17:682559 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:10:18:659920 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[6,4],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:10:18:659970 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:14:00:873488 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[["RH_uspm","taser"],[1,1],[0,0]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[8,5],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:14:00:873550 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:14:02:373595 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[["RH_uspm","taser"],[1,1],[0,0]],[["vvv_np_magazine_taser","RH_16Rnd_40cal_usp"],[8,5],[0,0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:14:02:373653 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:14:43:838147 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:14:43:838207 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:14:44:423207 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:14:44:423257 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:14:44:447310 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:14:44:447353 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:15:43:798028 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[["RH_16Rnd_40cal_usp"],[2],[0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:15:43:798092 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:15:45:860587 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[["RH_16Rnd_40cal_usp"],[2],[0]],[[],[],[]],[[],[],[]]]:76561198051941113
+[15:15:45:860639 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[15:16:13:827741 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:16:13:827843 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:16:13:827883 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 174 Input String: getCrimeType:1
+[15:26:21:036833 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateCop:5:76561198084610813
+[15:26:21:036894 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateCop
+[15:26:50:882945 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:26:50:883040 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:26:50:883074 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 187 Input String: getCrimeType:1
+[15:26:55:041554 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:26:55:041645 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:26:55:041681 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 188 Input String: getCrimeType:1
+[15:26:55:766901 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:26:55:766989 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:26:55:767116 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 189 Input String: getCrimeType:0
+[15:27:00:673976 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:27:00:674071 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:27:00:674106 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 190 Input String: getCrimeType:1
+[15:27:04:729050 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:27:04:729137 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:27:04:729170 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 191 Input String: getCrimeType:1
+[15:27:18:465439 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:27:18:465536 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:27:18:465569 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 192 Input String: getCrimeType:1
+[15:27:24:803119 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:27:24:803214 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:27:24:803247 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 193 Input String: getCrimeType:1
+[15:32:31:196129 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:32:31:196233 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:32:31:196269 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 206 Input String: getCrimeType:1
+[15:42:27:233501 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:42:27:233599 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:42:27:233632 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 215 Input String: getCrimeType:1
+[15:42:35:044321 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:42:35:044423 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:42:35:044460 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 216 Input String: getCrimeType:1
+[15:50:54:627122 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:50:54:627234 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:50:54:627278 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 225 Input String: getCrimeType:1
+[15:59:36:352735 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[15:59:36:352835 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[15:59:36:352869 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 230 Input String: getCrimeType:1
+[16:08:43:662293 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateCop:1:76561198145559226
+[16:08:43:662356 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateCop
+[16:08:57:431758 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateCop:5:76561198145559226
+[16:08:57:431823 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateCop
+[16:18:05:989565 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[16:18:05:989672 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[16:18:05:989709 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 239 Input String: getCrimeType:1
+[16:18:10:807989 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[16:18:10:808083 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[16:18:10:808119 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 240 Input String: getCrimeType:0
+[16:18:11:880365 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[16:18:11:880468 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[16:18:11:880505 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 241 Input String: getCrimeType:1
+[16:18:29:647958 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[16:18:29:648059 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[16:18:29:648094 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 242 Input String: getCrimeType:1
+[16:23:27:117642 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: Unknown column 'caseID' in 'field list'	[mysql_stmt_errno]: 1054	[mysql_stmt_sqlstate]: 42S22	[statemnt]: SELECT caseID, officerGUID, charges, status, evidence FROM wanted WHERE status=?;
+[16:23:27:117747 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[16:23:27:117790 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 243 Input String: getCrimeType:1
+[17:21:05:220867 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198132590031
+[17:21:05:220930 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[17:21:28:217257 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198132590031
+[17:21:28:217321 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[17:21:29:430994 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198132590031
+[17:21:29:431046 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[17:21:53:505285 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198132590031
+[17:21:53:505350 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[17:21:55:147257 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198132590031
+[17:21:55:147309 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[18:02:50:034768 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafiaBank:any:1
+[18:02:50:034835 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafiaBank
+[18:33:54:818397 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198083977040
+[18:33:54:818460 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[18:34:01:802302 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198083977040
+[18:34:01:802378 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[18:34:03:036991 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateShop:[[[],[],[]],[[],[],[]],[[],[],[]],[[],[],[]]]:76561198083977040
+[18:34:03:037043 +00:-1] [Thread 1720] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateShop
+[18:34:45:947293 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[18:34:45:947322 +00:-1] [Thread 5024] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[18:34:45:947384 +00:-1] [Thread 3320] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[18:34:45:947403 +00:-1] [Thread 3320] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[18:35:14:191312 +00:-1] [Thread 1720] extDB2: Stopping ...

@@ -1,0 +1,25 @@
+extDB2: Version: 71
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 8 Cores, Setting up 6 Worker Threads
+
+
+[14:02:06:779192 +00:-1] [Thread 4628] extDB2: Error Unknown Protocol: any  Input String: 2:any:getMayor:1
+[14:02:06:788839 +00:-1] [Thread 4628] extDB2: Database Type: MySQL
+[14:02:06:791278 +00:-1] [Thread 4628] extDB2: Database Session Pool Started
+[14:02:06:792481 +00:-1] [Thread 4628] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\steamcmd\steamapps\common\Arma 3 Server\@extDB2\extDB\sql_custom_v2\rpframework.ini
+[14:02:06:792602 +00:-1] [Thread 4628] extDB2: SQL_CUSTOM_V2: Version 10 Detected, Latest Version 12 Available
+[14:02:06:795237 +00:-1] [Thread 972] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[14:02:06:795284 +00:-1] [Thread 972] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[14:02:06:809724 +00:-1] [Thread 4628] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[14:02:06:809777 +00:-1] [Thread 4628] extDB2: Error: Input String 4:Error Unknown Protocol
+[14:03:21:151827 +00:-1] [Thread 4628] extDB2: Stopping ...

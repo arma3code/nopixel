@@ -1,0 +1,90 @@
+extDB2: Version: 71
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 4 Cores, Setting up 4 Worker Threads
+
+
+[23:37:37:449200 +02:00] [Thread 2992] extDB2: Database Type: MySQL
+[23:37:37:451200 +02:00] [Thread 2992] extDB2: Database Session Pool Started
+[23:37:37:451200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Loading Template Filename: C:\Users\root.ZELON-34572\Desktop\A3 NoPixel Server\@extDB2\extDB\sql_custom_v2\rpframework.ini
+[23:37:37:451200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Version 10 Detected, Latest Version 12 Available
+[23:37:37:452200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[23:37:37:452200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[23:37:37:453200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[23:37:37:453200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[23:59:38:224200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[23:59:38:224200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[23:59:38:224200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[23:59:38:224200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[00:11:45:273200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[00:11:45:273200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[00:11:45:273200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[00:11:45:273200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[00:12:09:200200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[00:12:09:200200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[00:12:09:200200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[00:12:09:200200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[01:33:44:873200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[01:33:44:873200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[01:33:44:873200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Noah Chase:Silver Lake Government:76561198157662259
+[01:33:45:033200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[01:33:45:033200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[01:33:45:033200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Noah Chase:Verizon:76561198157662259
+[01:41:49:263200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:49:263200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:41:58:044200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:58:044200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:41:58:244200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:58:244200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:41:58:384200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:58:384200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:41:58:564200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:58:564200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:41:58:744200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:58:744200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:41:58:904200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:58:904200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:41:59:085200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:59:085200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:41:59:304200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:59:304200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:41:59:644200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:59:644200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:41:59:885200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:41:59:885200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:42:00:105200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:42:00:105200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:42:00:324200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[01:42:00:324200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[01:45:28:684200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO mail (message, title, sender, receiver) VALUES (?,?,?,?)
+[01:45:28:684200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[01:45:28:684200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMail:Hi, this is your first mail message, welcome to Silver Lake!:Dear Tristan Butcher:Silver Lake Government:76561198258617580
+[01:45:28:844200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Data too long for column 'message' at row 1	[mysql_stmt_errno]: 1406	[mysql_stmt_sqlstate]: 22001	[statemnt]: INSERT INTO messages (message, title, sender, receiver) VALUES (?,?,?,?)
+[01:45:28:844200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Wiping Statements + Session
+[01:45:28:844200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error: UniqueID: 1 Input String: insertMessage:Hi, this is your first text message, welcome to the Silver Lake Verizon network!:Dear Tristan Butcher:Verizon:76561198258617580
+[01:45:44:251200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafiaBank:any:1
+[01:45:44:252200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafiaBank
+[02:04:15:484200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[02:04:15:484200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[02:04:16:524200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[02:04:16:524200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[02:04:16:724200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[02:04:16:724200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[02:04:16:904200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[02:04:16:904200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[02:04:17:044200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String updateMafia:5:76561198157662259
+[02:04:17:044200 +02:00] [Thread 2992] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname updateMafia
+[02:08:45:223200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String getMayor:1
+[02:08:45:223200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname getMayor
+[02:08:45:223200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Input String rallyracetimes
+[02:08:45:223200 +02:00] [Thread 2788] extDB2: SQL_CUSTOM_V2: Error No Custom Call Not Found: Callname rallyracetimes
+[02:16:21:786200 +02:00] [Thread 2992] extDB2: Stopping ...
